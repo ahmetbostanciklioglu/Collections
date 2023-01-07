@@ -45,19 +45,19 @@ Array Sets and Dictionary
 
 **Empty collections**
 <br />
-`var emptyDictionary = [String : String] ()`
+`var emptyDictionary = [String : String] () //Creating an empty `Dictionary``
 <br />
-`emptyDictionary["ahmet"] = "Ahmet" //appending a new value`
-<br />
-<br />
-<br />
-`var emptyArray = [Int]()`
-<br />
-`emptyArray.append(1)`
+`emptyDictionary["ahmet"] = "Ahmet" //appending a new value to dictionary`
 <br />
 <br />
 <br />
-`var emptySet = Set<String>()`
+`var emptyArray = [Int]() //Creating an empty `Array``
+<br />
+`emptyArray.append(1)  //appending a new value to Array`
+<br />
+<br />
+<br />
+`var emptySet = Set<String>() //Creating an empty `Set``
 
 
 
