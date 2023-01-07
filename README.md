@@ -6,15 +6,11 @@ Array Sets and Dictionary
 
 `let ahmet = "ahmet"`
 <br />
-<br />
 `let alex = "alex"`
-<br />
 <br />
 `let ali = "ali"`
 <br />
-<br />
 `let marcus = "marcus"`
-<br />
 <br />
 `let veli = "veli"`
 <br />
@@ -23,7 +19,7 @@ Array Sets and Dictionary
 `let array : [Any] = [ahmet, alex, ali, marcus, veli, 12, veli]`
 <br />
 <br />
-`array[4]  // Veli`
+`array[4]  // veli`
 <br />
 <br />
 `print(array)`
