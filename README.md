@@ -29,16 +29,14 @@ Array Sets and Dictionary
 
 **Sets**
 <br />
-`let colors = Set(["red", "green", "blue", "red", "blue"])`
+`let setColorsObject = Set(["red", "green", "blue", "red", "blue"])`
 <br />
-<br />
-`print(colors) //  {"green", "blue", "red"}`
+`print(setColorsObject) //  {"green", "blue", "red"}`
 <br />
 <br />
 **Dictionaries = [Key: Value]**
 <br />
 `let dictionary = ["Ahmet": 1.70, "Alex": 1.80] // [String: Int]`
-<br />
 <br />
 `dictionary["Alex"] // Alex = Key and value dictionary["Alex"] = 1.80 `
 
@@ -49,13 +47,11 @@ Array Sets and Dictionary
 <br />
 `var emptyDictionary = [String : String] ()`
 <br />
-<br />
 `emptyDictionary["ahmet"] = "Ahmet" //appending a new value`
 <br />
 <br />
 <br />
 `var emptyArray = [Int]()`
-<br />
 <br />
 `emptyArray.append(1)`
 <br />
