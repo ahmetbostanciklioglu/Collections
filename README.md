@@ -3,7 +3,7 @@ Array Sets and Dictionary
 
 
 
-`let ahmet = "ahmet"
+let ahmet = "ahmet"
 <br />
 let mehmet = "mehmet"
 <br />
@@ -12,4 +12,4 @@ let ali = "ali"
 let omer = "ömer"
 <br />
 let veli = "veli"
-<br />`
+<br />
