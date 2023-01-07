@@ -22,7 +22,10 @@ Array Sets and Dictionary
 
 `let array : [Any] = [ahmet, alex, ali, marcus, veli, 12, veli]`
 <br />
+<br />
 `array[4]  // Veli`
 <br />
+<br />
 `print(array)`
+<br />
 <br />
