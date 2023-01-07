@@ -32,3 +32,34 @@ Array Sets and Dictionary
 <br />
 <br />
 `print(colors) //  {"green", "blue", "red"}`
+<br />
+<br />
+**Dictionaries = [Key: Value]**
+`let dictionary = ["Ahmet": 1.70, "Alex": 1.80] // [String: Int]`
+<br />
+<br />
+`dictionary["Alex"] // Alex = Key and value dictionary["Alex"] = 1.80 `
+
+
+
+
+**Empty collections**
+`var emptyDictionary = [String : String] ()`
+<br />
+<br />
+`emptyDictionary["ahmet"] = "Ahmet" //appending a new value`
+<br />
+<br />
+<br />
+`var emptyArray = [Int]()`
+<br />
+<br />
+`emptyArray.append(1)`
+<br />
+<br />
+<br />
+`var emptySet = Set<String>()`
+
+
+
+
