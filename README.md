@@ -22,6 +22,6 @@ Array Sets and Dictionary
 `array[4]  // veli`
 <br />
 <br />
-`print(array)`
+`print(array)` `["ahmet", "mehmet", "ali", "ömer", "veli", 12, "veli"]`
 <br />
 <br />
