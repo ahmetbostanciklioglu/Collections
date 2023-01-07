@@ -4,28 +4,18 @@ Array Sets and Dictionary
 
 **Array**
 
+```
 `let ahmet = "ahmet"`
-<br />
 `let alex = "alex"`
-<br />
 `let ali = "ali"`
-<br />
 `let marcus = "marcus"`
-<br />
 `let veli = "veli"`
-<br />
-<br />
 
-`let array : [Any] = [ahmet, alex, ali, marcus, veli, 12, veli]` // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
-<br />
-<br />
-`array[4]`  // "veli"
-<br />
-<br />
-`print(array)` // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
-<br />
-<br />
-
+let array : [Any] = [ahmet, alex, ali, marcus, veli, 12, veli]
+array[4]  // "veli"
+print(array) // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
+```
+ 
 
 **Sets**
 <br />
