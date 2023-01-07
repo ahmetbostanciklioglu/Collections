@@ -20,7 +20,7 @@ print(array) // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
 **Set: Set([index0, index1, index2])**
 ```
 let setColorsObject = Set(["red", "green", "blue", "red", "blue"])
-print(setColorsObject)` //  {"green", "blue", "red"}
+print(setColorsObject) //  {"green", "blue", "red"}
 ```
 
 **Dictionaries = dictionary[Key: Value]**
