@@ -25,3 +25,10 @@ Array Sets and Dictionary
 `print(array) // ["ahmet", "mehmet", "ali", "ömer", "veli", 12, "veli"]`
 <br />
 <br />
+
+
+**Sets**
+`let colors = Set(["red", "green", "blue", "red", "blue"])`
+<br />
+<br />
+`print(colors) //  {"green", "blue", "red"}`
