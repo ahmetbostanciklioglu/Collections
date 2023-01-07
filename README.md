@@ -16,13 +16,13 @@ Array Sets and Dictionary
 <br />
 <br />
 
-`let array : [Any] = [ahmet, alex, ali, marcus, veli, 12, veli]` // ["ahmet", "mehmet", "ali", "ömer", "veli", 12, "veli"]
+`let array : [Any] = [ahmet, alex, ali, marcus, veli, 12, veli]` // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
 <br />
 <br />
 `array[4]`  // "veli"
 <br />
 <br />
-`print(array)` // ["ahmet", "mehmet", "ali", "ömer", "veli", 12, "veli"]
+`print(array)` // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
 <br />
 <br />
 
