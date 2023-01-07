@@ -3,13 +3,13 @@ Array Sets and Dictionary
 
 
 
-let ahmet = "ahmet"
+`let ahmet = "ahmet"`
 <br />
-let mehmet = "mehmet"
+`let alex = "alex"`
 <br />
-let ali = "ali"
+`let ali = "ali"`
 <br />
-let omer = "ömer"
+`let marcus = "marcus"`
 <br />
-let veli = "veli"
+`let veli = "veli"`
 <br />
