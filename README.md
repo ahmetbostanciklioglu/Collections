@@ -3,8 +3,8 @@ Array Sets and Dictionary
 
 
 
-let ahmet = "ahmet"
-let mehmet = "mehmet"
-let ali = "ali"
-let omer = "ömer"
-let veli = "veli"
+`let ahmet = "ahmet"<br />
+let mehmet = "mehmet"<br />
+let ali = "ali"<br />
+let omer = "ömer"<br />
+let veli = "veli"<br />`
