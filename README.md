@@ -33,7 +33,9 @@ dictionary["Alex"] // Alex = Key , and  dictionary["Alex"] = 1.80 -> 1.80 is a v
 ```
 var emptyDictionary = [String : String] () //Creating an empty Dictionary
 emptyDictionary["ahmet"] = "Ahmet" //appending a new value to dictionary
+
 var emptyArray = [Int]() //Creating an empty Array
 emptyArray.append(1)  //appending a new value to Array
+
 var emptySet = Set<String>() //Creating an empty Set
 ```
