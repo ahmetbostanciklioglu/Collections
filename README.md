@@ -28,6 +28,7 @@ Array Sets and Dictionary
 
 
 **Sets**
+<br />
 `let colors = Set(["red", "green", "blue", "red", "blue"])`
 <br />
 <br />
@@ -35,6 +36,7 @@ Array Sets and Dictionary
 <br />
 <br />
 **Dictionaries = [Key: Value]**
+<br />
 `let dictionary = ["Ahmet": 1.70, "Alex": 1.80] // [String: Int]`
 <br />
 <br />
@@ -44,6 +46,7 @@ Array Sets and Dictionary
 
 
 **Empty collections**
+<br />
 `var emptyDictionary = [String : String] ()`
 <br />
 <br />
