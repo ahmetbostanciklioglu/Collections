@@ -36,28 +36,28 @@ Array Sets and Dictionary
 <br />
 **Dictionaries = [Key: Value]**
 <br />
-`let dictionary = ["Ahmet": 1.70, "Alex": 1.80] // [String: Int]`
+`let dictionary = ["Ahmet": 1.70, "Alex": 1.80]` // **dictionary[String: Int]**
 <br />
-`dictionary["Alex"] // Alex = Key and value dictionary["Alex"] = 1.80 `
+`dictionary["Alex"]` // Alex = Key and value dictionary["Alex"] = 1.80
 
 
 
 
 **Empty collections**
 <br />
-`var emptyDictionary = [String : String] () //Creating an empty **Dictionary**`
+`var emptyDictionary = [String : String] ()` //Creating an empty **Dictionary**
 <br />
-`emptyDictionary["ahmet"] = "Ahmet" //appending a new value to dictionary`
-<br />
-<br />
-<br />
-`var emptyArray = [Int]() //Creating an empty **Array**`
-<br />
-`emptyArray.append(1)  //appending a new value to Array`
+`emptyDictionary["ahmet"] = "Ahmet"` //appending a new value to dictionary
 <br />
 <br />
 <br />
-`var emptySet = Set<String>() //Creating an empty **Set**`
+`var emptyArray = [Int]()` //Creating an empty **Array**
+<br />
+`emptyArray.append(1)`  //appending a new value to Array
+<br />
+<br />
+<br />
+`var emptySet = Set<String>()` //Creating an empty **Set**
 
 
 
