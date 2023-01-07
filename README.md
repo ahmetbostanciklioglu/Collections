@@ -21,16 +21,13 @@ print(array) // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
 ```
 let setColorsObject = Set(["red", "green", "blue", "red", "blue"])
 print(setColorsObject)` //  {"green", "blue", "red"}
-
 ```
 
 **Dictionaries = dictionary[Key: Value]**
 ```
 let dictionary = ["Ahmet": 1.70, "Alex": 1.80] // dictionary[String: Int]
-dictionary["Alex"] // Alex = Key and value dictionary["Alex"] = 1.80
-
+dictionary["Alex"] // Alex = Key , and  dictionary["Alex"] = 1.80 -> 1.80 is a value
 ```
-
 
 **Empty collections**
 ```
@@ -40,6 +37,3 @@ var emptyArray = [Int]() //Creating an empty Array
 emptyArray.append(1)  //appending a new value to Array
 var emptySet = Set<String>() //Creating an empty Set
 ```
-
-
-
