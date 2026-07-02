@@ -1,41 +1,47 @@
-# Collections
-Array Sets and Dictionary 
+<div align="center">
 
+# 📦 Swift Basics: Collections
 
-**Array:**
+**A concise, runnable playground covering Arrays, Sets, and Dictionaries in Swift**
 
+![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey?style=flat-square)
+![Swift](https://img.shields.io/badge/Swift-5-orange?style=flat-square&logo=swift&logoColor=white)
+![Playground](https://img.shields.io/badge/Xcode-Playground-1575F9?style=flat-square&logo=xcode&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ahmetbostanciklioglu/Collections?style=flat-square&color=6E48AA)
+![Last Commit](https://img.shields.io/github/last-commit/ahmetbostanciklioglu/Collections?style=flat-square&color=4776E6)
+
+</div>
+
+## 📖 Overview
+
+Swift's three core collection types — **Array**, **Set**, and **Dictionary** — are the everyday containers for storing groups of values. Arrays keep an ordered list, Sets store distinct unordered values, and Dictionaries map keys to values.
+
+This repository is a small, self-contained Xcode Playground that demonstrates each of these types with short, runnable examples. It is meant as a concise learning reference rather than a production library — open it, run it, and read the inline comments to see exactly what each line does and prints.
+
+## ✨ What it covers
+
+- **Arrays** — creating an ordered `[Any]` array, accessing an element by index, and printing the result.
+- **Sets** — building a `Set` from a literal and observing how duplicate values are automatically dropped.
+- **Dictionaries** — declaring key/value pairs and looking up a value by its key.
+- **Empty collections** — initializing empty `Array`, `Set`, and `Dictionary` instances, then adding elements with `append` and subscript assignment.
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/ahmetbostanciklioglu/Collections.git
+cd Collections
 ```
-let ahmet = "ahmet"
-let alex = "alex"
-let ali = "ali"
-let marcus = "marcus"
-let veli = "veli"
 
-let array : [Any] = [ahmet, alex, ali, marcus, veli, 12, veli]
-array[4]  // "veli"
-print(array) // ["ahmet", "alex", "ali", "marcus", "veli", 12, "veli"]
-```
- 
+Unzip `Collections.playground.zip`, then open `Collections.playground` in Xcode. Press **Command-R** (or use the play button in the editor gutter) to run the playground and view the results inline.
 
-**Set: Set([index0, index1, index2])**
-```
-let setColorsObject = Set(["red", "green", "blue", "red", "blue"])
-print(setColorsObject) //  {"green", "blue", "red"}
-```
+## 📋 Requirements
 
-**Dictionaries = dictionary[Key: Value]**
-```
-let dictionary = ["Ahmet": 1.70, "Alex": 1.80] // dictionary[String: Int]
-dictionary["Alex"] // Alex = Key , and  dictionary["Alex"] = 1.80 -> 1.80 is a value
-```
+- Xcode 12 or later
+- Swift 5
+- iOS playground target
 
-**Empty collections**
-```
-var emptyDictionary = [String : String] () //Creating an empty Dictionary
-emptyDictionary["ahmet"] = "Ahmet" //appending a new value to dictionary
+## 🧑‍💻 Author
 
-var emptyArray = [Int]() //Creating an empty Array
-emptyArray.append(1)  //appending a new value to Array
+**Ahmet Bostancıklıoğlu** — [@ahmetbostanciklioglu](https://github.com/ahmetbostanciklioglu) · ahmetbostancikli@gmail.com
 
-var emptySet = Set<String>() //Creating an empty Set
-```
+> ⭐ If this helped you, consider giving the repo a star!
